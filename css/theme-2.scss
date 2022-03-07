@@ -1,8 +1,8 @@
 body {
-    background-color: #e6e6e6;
-    #calc-header {
-        color: #35352c;
-    }
+  background-color: #e6e6e6;
+  #calc-header {
+    color: #35352c;
+  }
   #keypad {
     background-color: #d1cccc;
   }
@@ -11,13 +11,31 @@ body {
     color: #35352c;
   }
 
-
-  #del, #reset {
-      background-color: #377f86;
-      color: #fff;
+  #del,
+  #reset {
+    background-color: #377f86;
+    color: #fff;
   }
-  .equal, .equal:hover {
-      color: #fff;
-      background-color: #ca5502;
+  .equal,
+  .equal:hover {
+    color: #fff;
+    background-color: #ca5502;
+  }
+  #toggle-bg {
+    background-color: #d1cccc;
+  }
+  .selected-2 {
+    background-color: #ca5502;
+  }
+  .selected-1,
+  .selected-3 {
+    background-color: transparent;
+  }
+  .attribution {
+    color: #000;
+  }
+
+  .attribution a {
+    color: #9573f5;
   }
 }

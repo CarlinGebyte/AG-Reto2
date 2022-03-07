@@ -8,29 +8,94 @@ body {
 
 /** CALC HEADER **/
 
-
-
 #calc-header {
     margin: 12% auto 5%;
     color: #ffffff;
     text-align: start;
-    padding: 0 4.6vh;
+    padding: 0 5.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 #calc {
-    width: 70%;
+    width: 50%;
     display: inline-block;
-    /* margin: auto; */
+    margin: 0;
     text-align: start;
     font-size: 2em;
 }
 
 #theme {
-    width: 15%;
+    width: 7em;
     display: inline-block;
-    /* margin: auto; */
+    margin: 0;
     font-size: 0.8em;
     letter-spacing: .15vh;
+}
+
+#toggle-bg {
+    background-color: #232c43;
+    border-radius: 10rem;
+    height: 1.7rem;
+    position: absolute;
+    left: -12%;
+    right: 0;
+    bottom: 0;
+    width: 123%;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+#toggle-container {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#toggle-buttons {
+    display: flex;
+    width: 5em;
+    height: 3em;
+    justify-content: space-between;
+    position: relative;
+}
+
+.toggles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.toggles input {
+    display: none;
+}
+
+.selected-1, .selected-2, .selected-3 {
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3.5px;
+    z-index: 1;
+}
+.selected-2{
+    left: 35%;
+}
+.selected-3{
+    right: -5%;
+}
+.selected-1 {
+    background-color: #d03f2f;
+    left: -5%;
+}
+
+.selected-2, .selected-3 {
+    background-color: transparent;
+}
+
+label:hover {
+    cursor: pointer;
 }
 
 /** END CALC HEADER **/
@@ -106,11 +171,13 @@ body {
 /** END KEYS **/
 
 .attribution {
-  font-size: 11px;
+  font-size: 15px;
   text-align: center;
+  color: #ffffff;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
-}
+  /* color: #9f81f1; */
+  color: #58f599;
 
+}

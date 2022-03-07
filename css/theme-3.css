@@ -4,7 +4,8 @@ body {
 body #calc-header {
   color: #ffe53d;
 }
-body .btn-number, body .btn-number:hover {
+body .btn-number,
+body .btn-number:hover {
   background-color: #58077d;
   color: #ffe53d;
 }
@@ -20,9 +21,23 @@ body #reset {
   background-color: #341c4f;
   color: #fff;
 }
-body .equal, body .equal:hover {
+body .equal,
+body .equal:hover {
   color: #1b2428;
   background-color: #00e0d1;
+}
+body #toggle-bg {
+  background-color: #1d0934;
+}
+body .selected-3 {
+  background-color: #00e0d1;
+}
+body .selected-2,
+body .selected-1 {
+  background-color: transparent;
+}
+body .attribution a {
+  color: #58f599;
 }
 
 /*# sourceMappingURL=theme-3.css.map */

@@ -3,7 +3,8 @@ body {
   #calc-header {
     color: #ffe53d;
   }
-  .btn-number, .btn-number:hover {
+  .btn-number,
+  .btn-number:hover {
     background-color: #58077d;
     color: #ffe53d;
   }
@@ -20,8 +21,23 @@ body {
     background-color: #341c4f;
     color: #fff;
   }
-  .equal, .equal:hover {
+  .equal,
+  .equal:hover {
     color: #1b2428;
     background-color: #00e0d1;
+  }
+  #toggle-bg {
+    background-color: #1d0934;
+  }
+  .selected-3 {
+    background-color: #00e0d1;
+  }
+  .selected-2,
+  .selected-1 {
+    background-color: transparent;
+  }
+
+  .attribution a {
+    color: #58f599;
   }
 }

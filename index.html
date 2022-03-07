@@ -35,22 +35,28 @@
                 <div class="col-md-6 col-sm-6 col-xs-6 m-auto text-center">
                     <div id="calc-header">
                         <h2 id="calc">calc</h2>
-                        <p id="theme">THEME</p>
-                        <div>
-                            <div>
-                                <label for="theme-1">1</label>
-                                <input type="radio" value="1" name="toggle" class="toggle" id="theme-1">
+                        <div id="toggle-container">
+                            <p id="theme">THEME</p>
+                            <div id="toggle-buttons">
+                                <div class="toggles">
+                                    <label for="theme-1">1</label>
+                                    <input type="radio" value="1" name="toggle" class="toggle" id="theme-1">
+                                    <label class="selected-1" for="theme-1"></label>
+                                </div>
+                                <div class="toggles">
+                                    <label for="theme-2">2</label>
+                                    <input type="radio" value="2" name="toggle" class="toggle" id="theme-2">
+                                    <label class="selected-2" for="theme-2"></label>
+                                </div>
+                                <div class="toggles">
+                                    <label for="theme-3">3</label>
+                                    <input type="radio" value="3" name="toggle" class="toggle" id="theme-3">
+                                    <label class="selected-3" for="theme-3"></label>
+                                </div>
+                                <div id="toggle-bg"></div>
                             </div>
-                            <div>
-                                <label for="theme-2">2</label>
-                                <input type="radio" value="2" name="toggle" class="toggle" id="theme-2">
-                            </div>
-                            <div>
-                                <label for="theme-3">3</label>
-                                <input type="radio" value="3" name="toggle" class="toggle" id="theme-3">
-                            </div>
-
                         </div>
+
                     </div>
                     <div id="result"></div>
                     <div id="keypad">
