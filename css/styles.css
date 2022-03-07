@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700;800;900&display=swap');
+
+/** GENERAL **/
+body {
+    font-family: 'Spartan';
+    background-color: #3a4764;
+}
+
+/** CALC HEADER **/
+
+
+
+#calc-header {
+    margin: 12% auto 5%;
+    color: #ffffff;
+    text-align: start;
+    padding: 0 4.6vh;
+}
+
+#calc {
+    width: 70%;
+    display: inline-block;
+    /* margin: auto; */
+    text-align: start;
+    font-size: 2em;
+}
+
+#theme {
+    width: 15%;
+    display: inline-block;
+    /* margin: auto; */
+    font-size: 0.8em;
+    letter-spacing: .15vh;
+}
+
+/** END CALC HEADER **/
+
+/** CALC RESULT **/
+
+#result {
+    height: 15vh;
+    background-color: #182034;
+    width: 90%;
+    margin: auto;
+    text-align: end;
+    color: #fff;
+    border-radius: 0.2em;
+    margin-bottom: 0.5em;
+    font-size: 7vh;
+    padding: 3.5% 5%;
+}
+
+/** END CALC RESULT **/
+
+/** KEYS **/
+
+#keypad {
+    background-color: #232c43;
+    width: 90%;
+    margin: auto;
+    padding: 1.1rem 0;
+    border-radius: 0.5em;
+}
+
+.btn {
+    width: 19%;
+    height: 9vh;
+    padding: 1%;
+    margin: 2.3% 1.7%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btn-number {
+    font-size: 2em;
+    background-color: #eae3dc;
+    color: #444b5a;
+}
+
+#del, #reset {
+    color: #fff;
+    background-color: #637097;
+}
+
+.equal, .equal:hover {
+    color: #fff;
+    background-color: #d03f2f;
+}
+
+.btn-long {
+    width: 42.5%;
+}
+
+.btn-symbol {
+    font-size: 1.4em;
+}
+
+#x {
+    font-weight: 900;
+}
+
+.dot {
+    font-size: 2em;
+}
+
+/** END KEYS **/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+

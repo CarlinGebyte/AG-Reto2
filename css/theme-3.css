@@ -1,0 +1,28 @@
+body {
+  background-color: #160628;
+}
+body #calc-header {
+  color: #ffe53d;
+}
+body .btn-number, body .btn-number:hover {
+  background-color: #58077d;
+  color: #ffe53d;
+}
+body #keypad {
+  background-color: #1d0934;
+}
+body #result {
+  background-color: #1d0934;
+  color: #ffe53d;
+}
+body #del,
+body #reset {
+  background-color: #341c4f;
+  color: #fff;
+}
+body .equal, body .equal:hover {
+  color: #1b2428;
+  background-color: #00e0d1;
+}
+
+/*# sourceMappingURL=theme-3.css.map */

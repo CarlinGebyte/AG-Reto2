@@ -1,0 +1,23 @@
+body {
+  background-color: #e6e6e6;
+}
+body #calc-header {
+  color: #35352c;
+}
+body #keypad {
+  background-color: #d1cccc;
+}
+body #result {
+  background-color: #ededed;
+  color: #35352c;
+}
+body #del, body #reset {
+  background-color: #377f86;
+  color: #fff;
+}
+body .equal, body .equal:hover {
+  color: #fff;
+  background-color: #ca5502;
+}
+
+/*# sourceMappingURL=theme-2.css.map */

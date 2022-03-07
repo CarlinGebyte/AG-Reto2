@@ -23,16 +23,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" id="choose-theme" href="">
 </head>
 
 <body>
@@ -40,48 +33,64 @@
         <div class="container">
             <div class="row" id="">
                 <div class="col-md-6 col-sm-6 col-xs-6 m-auto text-center">
-                    <div>
+                    <div id="calc-header">
                         <h2 id="calc">calc</h2>
                         <p id="theme">THEME</p>
+                        <div>
+                            <div>
+                                <label for="theme-1">1</label>
+                                <input type="radio" value="1" name="toggle" class="toggle" id="theme-1">
+                            </div>
+                            <div>
+                                <label for="theme-2">2</label>
+                                <input type="radio" value="2" name="toggle" class="toggle" id="theme-2">
+                            </div>
+                            <div>
+                                <label for="theme-3">3</label>
+                                <input type="radio" value="3" name="toggle" class="toggle" id="theme-3">
+                            </div>
+
+                        </div>
                     </div>
                     <div id="result"></div>
-                    <div>
+                    <div id="keypad">
                         <div>
-                            <button value="7" id="7" class="btn btn-number btn-danger">7</button>
-                            <button value="8" id="8" class="btn btn-number btn-danger">8</button>
-                            <button value="9" id="9" class="btn btn-number btn-danger">9</button>
-                            <button id="del" class="btn btn-number btn-danger">DEL</button>
+                            <button value="7" id="7" class="btn btn-number">7</button>
+                            <button value="8" id="8" class="btn btn-number">8</button>
+                            <button value="9" id="9" class="btn btn-number">9</button>
+                            <button id="del" class="btn btn-symbol">DEL</button>
                         </div>
                         <div>
-                            <button value="4" id="4" class="btn btn-number btn-danger">4</button>
-                            <button value="5" id="5" class="btn btn-number btn-danger">5</button>
-                            <button value="6" id="6" class="btn btn-number btn-danger">6</button>
-                            <button id="+" class="btn btn-number btn-danger">+</button>
+                            <button value="4" id="4" class="btn btn-number">4</button>
+                            <button value="5" id="5" class="btn btn-number">5</button>
+                            <button value="6" id="6" class="btn btn-number">6</button>
+                            <button id="+" class="btn btn-number">+</button>
                         </div>
                         <div>
-                            <button value="1" id="1" class="btn btn-number btn-danger">1</button>
-                            <button value="2" id="2" class="btn btn-number btn-danger">2</button>
-                            <button value="3" id="3" class="btn btn-number btn-danger">3</button>
-                            <button id="-" class="btn btn-number btn-danger">-</button>
+                            <button value="1" id="1" class="btn btn-number">1</button>
+                            <button value="2" id="2" class="btn btn-number">2</button>
+                            <button value="3" id="3" class="btn btn-number">3</button>
+                            <button id="-" class="btn btn-number">-</button>
                         </div>
                         <div>
-                            <button id="." class="btn btn-number btn-danger">.</button>
-                            <button value="0" id="0" class="btn btn-number btn-danger">0</button>
-                            <button id="/" class="btn btn-number btn-danger">/</button>
-                            <button id="x" class="btn btn-number btn-danger">x</button>
+                            <button id="." value="." class="btn dot btn-symbol btn-number">.</button>
+                            <button value="0" id="0" class="btn btn-number">0</button>
+                            <button id="/" class="btn btn-number">/</button>
+                            <button id="x" class="btn btn-symbol btn-number">x</button>
                         </div>
                         <div>
-                            <button id="reset" class="btn btn-number btn-danger">RESET</button>
-                            <button id="=" class="btn btn-number btn-danger">=</button>
+                            <button id="reset" class="btn btn-symbol btn-long">RESET</button>
+                            <button id="=" class="btn equal btn-number btn-long">=</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <div class="attribution">Coded by <a href="#">Your Name Here</a>.</div>
+    <div class="attribution">Coded by <a href="#">CarlinGebyte</a>.</div>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/script.js"></script>
+    <script src="js/themes.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
 </body>
 

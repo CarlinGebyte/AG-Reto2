@@ -1,0 +1,23 @@
+body {
+    background-color: #e6e6e6;
+    #calc-header {
+        color: #35352c;
+    }
+  #keypad {
+    background-color: #d1cccc;
+  }
+  #result {
+    background-color: #ededed;
+    color: #35352c;
+  }
+
+
+  #del, #reset {
+      background-color: #377f86;
+      color: #fff;
+  }
+  .equal, .equal:hover {
+      color: #fff;
+      background-color: #ca5502;
+  }
+}

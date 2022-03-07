@@ -1,0 +1,27 @@
+body {
+  background-color: #160628;
+  #calc-header {
+    color: #ffe53d;
+  }
+  .btn-number, .btn-number:hover {
+    background-color: #58077d;
+    color: #ffe53d;
+  }
+  #keypad {
+    background-color: #1d0934;
+  }
+  #result {
+    background-color: #1d0934;
+    color: #ffe53d;
+  }
+
+  #del,
+  #reset {
+    background-color: #341c4f;
+    color: #fff;
+  }
+  .equal, .equal:hover {
+    color: #1b2428;
+    background-color: #00e0d1;
+  }
+}

@@ -8,6 +8,7 @@ let n6 = document.getElementById("6");
 let n7 = document.getElementById("7");
 let n8 = document.getElementById("8");
 let n9 = document.getElementById("9");
+let dot = document.getElementById(".");
 let result = document.querySelector("#result");
 let reset = document.getElementById("reset");
 let del = document.getElementById("del");
@@ -21,6 +22,10 @@ let number1;
 let number2;
 let flag = false;
 
+dot.addEventListener("click", (e) => {
+  e.preventDefault();
+  validatorDrawing(dot.value);
+});
 n0.addEventListener("click", (e) => {
   e.preventDefault();
   validatorDrawing(n0.value);
@@ -170,7 +175,7 @@ const alertPersonalized = (message) => {
   swal.fire({
     title: "Auto close alert!",
     text: `${message}`,
-    timer: 2000,
+    timer: 5000,
     showConfirmButton: false,
   });
 };
