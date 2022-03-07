@@ -14,7 +14,7 @@ body {
     text-align: start;
     padding: 0 5.5%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: baseline;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 #theme {
-    width: 7em;
+    width: 6em;
     display: inline-block;
     margin: 0;
     font-size: 0.8em;
@@ -49,7 +49,7 @@ body {
 
 #toggle-container {
     display: flex;
-    width: 50%;
+    width: 46%;
     align-items: flex-end;
     justify-content: flex-end;
 }
