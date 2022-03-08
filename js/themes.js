@@ -31,6 +31,7 @@ const setLocalTheme = () => {
         themeStyle.setAttribute("href", `css/theme-${localTheme}.css`);
         break;
       default:
+        windowsTheme();
         break;
     }
   }
@@ -47,10 +48,9 @@ const windowsTheme = () => {
     themeStyle.setAttribute("href", "css/theme-3.css");
   } else {
     themeStyle.setAttribute("href", "");
-
   }
 };
 
-windowsTheme();
+
 
 setLocalTheme();
