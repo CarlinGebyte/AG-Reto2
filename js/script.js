@@ -118,7 +118,9 @@ operateBtn.addEventListener("click", (e) => {
     if (!optResult[0]) {
       result.innerHTML = optResult[1];
     } else {
-      alertPersonalized("Please, select an operator and two numbers to operate");
+      alertPersonalized(
+        "Please, select an operator and two numbers to operate"
+      );
     }
   } else {
     cleanResult();
@@ -151,7 +153,7 @@ const delChar = () => {
 };
 
 const operation = (operator, number1, number2) => {
-  if ((number1 !== "" && number2 !== "") && operator !== undefined) {
+  if (number1 !== "" && number2 !== "" && operator !== undefined) {
     number1 = Number(number1);
     number2 = Number(number2);
     switch (operator) {

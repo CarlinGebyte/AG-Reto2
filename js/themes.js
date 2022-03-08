@@ -51,6 +51,4 @@ const windowsTheme = () => {
   }
 };
 
-
-
 setLocalTheme();
