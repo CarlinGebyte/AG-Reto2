@@ -40,7 +40,6 @@ const setLocalTheme = () => {
 const windowsTheme = () => {
   const lighT = window.matchMedia("(prefers-color-scheme: light)").matches;
   const darkT = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  console.log(lighT, darkT);
 
   if (lighT) {
     themeStyle.setAttribute("href", "css/theme-2.css");
